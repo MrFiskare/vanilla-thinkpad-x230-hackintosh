@@ -36,4 +36,9 @@ For further BIOS settings check: [Bizzaro's git](https://github.com/Bizzaro/x230
 At the pre-alpha version I am using macOS Catalina 10.15.3. 
 Hopefully this repo is going to end up a rock solid, update-proof collection kexts, and fixes.
 
+## Getting started with Clover
+
+My repo aims to use the newest Clover Bootloader release available at [CDB](https://cloverdb.com). 
+The current newest version is [v2.5 r5103](https://github.com/Dids/clover-builder/releases/tag/v2.5k_r5103). My pre-alpha is based on the files inside the **CloverISO-5103.tar.lzma**.
+
 
