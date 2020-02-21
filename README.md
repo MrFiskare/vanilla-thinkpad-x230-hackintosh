@@ -3,6 +3,8 @@
 This is an ongoing home project.
 I would not <ins>yet</ins> recommend you to use it for your specific hardware.
 
+![work-is-in-progress](https://pngimg.com/uploads/under_construction/under_construction_PNG18.png)
+
 ### BIOS Settings
 
 These generic settings are just collected in order to prevent any compatibility issues. They shoud be kept in mind with [any laptop](https://fewtarius.gitbook.io/laptopguide/before-you-start/bios-configuration) that you're trying to install macOS on.
