@@ -26,6 +26,14 @@ For further BIOS settings check: [Bizzaro's git](https://github.com/Bizzaro/x230
 | SD Card Reader ** | Disabled *(if present)* |
 
 *Trusted Platform Module - According to [this page](https://wiki.archlinux.org/index.php/Lenovo_ThinkPad_X230#Trusted_Platform_Module) it should be located in *Security > Security Chip > Security Chip*
+
 **Security Tab, and then I/O Port Access option
 
 [source 1](https://fewtarius.gitbook.io/laptopguide/before-you-start/bios-configuration) – [source 2](https://github.com/Bizzaro/x230-osx) – [source 3](https://wiki.archlinux.org/index.php/Lenovo_ThinkPad_X230#Trusted_Platform_Module)
+
+## Which macOS to use?
+
+At the pre-alpha version I am using macOS Catalina 10.15.3. 
+Hopefully this repo is going to end up a rock solid, update-proof collection kexts, and fixes.
+
+
