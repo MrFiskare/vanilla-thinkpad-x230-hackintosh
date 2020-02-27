@@ -70,3 +70,18 @@ Once you're done with extracting the files you should create a barbone Clover st
 
 I used *OCQuirks* to fix memory allocation issues. Keep in mind that it depends on the *FwRuntimeServices.efi* driver. Copy these files to your *EFI/CLOVER/drivers/UEFI* folder.
 
+source: https://github.com/ReddestDream/OcQuirks/releases
+
+
+SMC emulation
+
+source: https://github.com/acidanthera/VirtualSMC/releases
+source: https://github.com/acidanthera/Lilu/releases/tag/1.4.1
+source: https://github.com/acidanthera/VirtualSMC/tree/master/EfiDriver
+
+Clover template:
+
+source: https://github.com/hackintosh-guides/laptop-guide-artifacts
+
+NEXT: ACPI patches
+guide: https://fewtarius.gitbook.io/laptopguide/prepare-install-macos/clover-template
