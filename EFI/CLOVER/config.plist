@@ -335,7 +335,7 @@
 			<true/>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>1920x1080</string>
+		<string>1366x768</string>
 		<key>Theme</key>
 		<string></string>
 	</dict>
