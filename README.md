@@ -83,5 +83,32 @@ Clover template:
 
 source: https://github.com/hackintosh-guides/laptop-guide-artifacts
 
-NEXT: ACPI patches
-guide: https://fewtarius.gitbook.io/laptopguide/prepare-install-macos/clover-template
+
+SMBIOS:
+Needed for iMessage, iCloud, FaceTime. Change the default values to unique ones.
+
+paches
+
+maybe needed:
+change EHC1 to EH01
+change EHC2 to EH02
+change LPC to LPCB
+
+maybe not needed:
+change XHC1 to XHC
+
+dependencies:
+change _OSI to XOSI -> Pair with SSDT-XOSI.aml 
+
+
+irq fixes:
+maybe needed more from other repos
+
+ec patch in dsdt maybe not even needed
+
+graphics fix with whatevergreen:
+https://github.com/acidanthera/WhateverGreen/releases
+
+TODO: 
+USB patch
+https://fewtarius.gitbook.io/laptopguide/prepare-install-macos/usb-pre-setup
