@@ -10,6 +10,12 @@
 			<false/>
 			<key>Fixes</key>
 			<dict>
+				<key>#Comment-IRQ Fix</key>
+				<string>The following fixes may be needed for onboard audio/USB/etc</string>
+				<key>AddIMEI</key>
+				<false/>
+				<key>FixDisplay</key>
+				<false/>
 				<key>FixHPET</key>
 				<true/>
 				<key>FixIPIC</key>
@@ -224,7 +230,7 @@
 	<dict>
 		<key>#FakeID</key>
 		<dict>
-			<key>IntelGFX</key>
+			<key>#IntelGFX</key>
 			<string>0x012345678</string>
 		</dict>
 		<key>Audio</key>
@@ -257,7 +263,7 @@
 				</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>
-				AADAhw==
+				ZgEAAw==
 				</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal</string>
@@ -489,5 +495,7 @@
 		<key>InjectKexts</key>
 		<string>Detect</string>
 	</dict>
+	<key>UseIntelHDMI</key>
+	<false/>
 </dict>
 </plist>
